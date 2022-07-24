@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './sass/Header.scss'
 const Header = () =>{
   let contador:number = 1;
   const Ocultar = (itemid:string,item1:string,item2:string) =>{

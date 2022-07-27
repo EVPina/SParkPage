@@ -1,0 +1,83 @@
+
+@mixin Carta{
+    &-item{
+        cursor: pointer;
+        box-shadow: 0px 0px 1px #86868657;
+        &-top{
+            position: relative;
+            height: 230px;
+            max-width: 100%;
+            &-image{
+                height: 100%;
+                max-width: 100%;
+                position: absolute;
+            }
+            &-time
+            {
+                position: relative;
+                z-index: 10;
+                filter: invert(1);
+                background: #fff;
+                padding: 1px 5px;
+                font-weight: 700;
+                top: 87%;
+                left: 76%;
+                img{
+                    width: 9px;
+                }
+                span{
+                    margin-left: 5px;
+                    font-size: 0.76rem;
+                    font-weight: 800;
+                }
+            }
+        }
+        &-bottom{
+            &-serie{
+                color: #455492;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 0.9rem;
+            }
+
+            &-serie,
+            &-season,
+            &-title,
+            &-description,
+            &-fecha{
+                margin: 15px;
+            }
+            &-season{
+                font-size: 2rem;
+                font-weight: 800;
+                display: flex;
+                align-items: center;
+                &-dot{
+                    margin: 0 10px;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    display: block;
+                    background: black;
+                }
+            }
+            &-title{
+                font-size: 0.9rem;
+                font-weight: 800;
+            }
+            &-description{
+                font-size: 1rem;
+                line-height: 1.5;
+            }
+            &-fecha{
+                color: #818181;
+                font-size: 0.9rem;
+            }
+        }
+    }
+    &-item:hover{
+        box-shadow: 1px 2px 10px #27262665;
+        transition-duration: 0.2s;
+        transition-property: box-shadow;
+    }
+}

@@ -1,5 +1,5 @@
-@mixin YellowBoton($pad,$wgt:800){
-    background: $yellow;
+@mixin Boton($pad,$wgt:800,$color: $yellow){
+    background: $color;
     color: #000;
     text-transform: uppercase;
     padding: $pad;

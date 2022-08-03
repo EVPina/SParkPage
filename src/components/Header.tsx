@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
+import {Ocultar} from './GlobalFunctions'
+
+
 const Header = () =>{
   let contador:number = 1;
-  const Ocultar = (itemid:string,item1:string,item2:string) =>{
-    document.getElementById(itemid)!.classList.remove(item1)
-    document.getElementById(itemid)!.classList.add(item2)
-  }
 
   const Desplegar = ()=>{
     Ocultar("Header-Options-Menu","removeMenu","showMenu")

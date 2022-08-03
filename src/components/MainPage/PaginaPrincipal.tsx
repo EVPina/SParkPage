@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from "../Header";
+import Footer from "../Footer";
 import "../sass/MainPage.scss";
 import Episodes from './Episodes';
 import News from './News';
@@ -16,9 +17,10 @@ const PaginaPrincipal = () =>{
           <Episodes/>
           <News/>
           <div className='MainContent-Cargarbtn'>
-            <button>Cargas Mas</button>
+            <button type='button'>Cargas Mas</button>
           </div>
         </main>
+        <Footer />
     </React.Fragment>
   )
 }

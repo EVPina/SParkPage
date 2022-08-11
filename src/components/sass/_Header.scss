@@ -11,6 +11,9 @@ a{
     font-family: "Montserrat",sans-serif;
 }
 .Content-Header{
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
     &-Top{
         display: flex;
         align-items: center;

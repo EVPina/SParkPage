@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import {Ocultar} from './GlobalFunctions'
 
 
@@ -8,7 +7,7 @@ const Header = () =>{
   const Desplegar = ()=>{
     Ocultar("Header-Options-Menu","removeMenu","showMenu")
     Ocultar("Header-Options-ContentBurger-Burger","Burger","across")
-    if(contador%2==0){
+    if(contador%2===0){
       Ocultar("Header-Options-Menu","showMenu","removeMenu")
       Ocultar("Header-Options-ContentBurger-Burger","across","Burger")
     }

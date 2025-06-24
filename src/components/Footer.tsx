@@ -68,7 +68,7 @@ const Footer = () =>{
                             <img id='Footer-Content-Notificaciones-Form-checksubscrito-checkbox-check' src="./images/cheque.png" alt="check" />
                         </div>
                         <span>
-                            Al hacer clic en Suscribirse, acepta recibir boletines informativos de South Park y otros correos electrónicos de marketing. Los boletines están sujetos a nuestra <a href="">Política de privacidad</a> y <a href="">Términos de uso</a>. Los usuarios pueden darse de baja en cualquier momento. A.W.E.S.O.M. - O no se burlará de ti ni contará tus secretos a otras personas o cosas.
+                            Al hacer clic en Suscribirse, acepta recibir boletines informativos de South Park y otros correos electrónicos de marketing. Los boletines están sujetos a nuestra <a href="/">Política de privacidad</a> y <a href="/">Términos de uso</a>. Los usuarios pueden darse de baja en cualquier momento. A.W.E.S.O.M. - O no se burlará de ti ni contará tus secretos a otras personas o cosas.
                         </span>
                     </div>
                     <button id='Footer-Content-Notificaciones-Form-button' type='submit' disabled>Suscribir</button>

@@ -68,7 +68,7 @@ const Footer = () =>{
                             <img id='Footer-Content-Notificaciones-Form-checksubscrito-checkbox-check' src="./images/cheque.png" alt="check" />
                         </div>
                         <span>
-                            Al hacer clic en Suscribirse, acepta recibir boletines informativos de South Park y otros correos electrónicos de marketing. Los boletines están sujetos a nuestra <a href="">Política de privacidad</a> y <a href="">Términos de uso</a>. Los usuarios pueden darse de baja en cualquier momento. A.W.E.S.O.M. - O no se burlará de ti ni contará tus secretos a otras personas o cosas.
+                            Al hacer clic en Suscribirse, acepta recibir boletines informativos de South Park y otros correos electrónicos de marketing. Los boletines están sujetos a nuestra <a href="/">Política de privacidad</a> y <a href="/">Términos de uso</a>. Los usuarios pueden darse de baja en cualquier momento. A.W.E.S.O.M. - O no se burlará de ti ni contará tus secretos a otras personas o cosas.
                         </span>
                     </div>
                     <button id='Footer-Content-Notificaciones-Form-button' type='submit' disabled>Suscribir</button>
@@ -77,15 +77,15 @@ const Footer = () =>{
             <div className='Footer-Content-Credits'>
                 <div className='Footer-Content-Credits-Links'>
                     <ul>
-                        <li><a href="">Biografía de creadores</a></li>
-                        <li><a href="">Créditos de reparto y equipo</a></li>
-                        <li><a href="">Contacto</a></li>
-                        <li><a href="">Créditos web</a></li>
-                        <li><a href="">Política de Privacidad</a></li>
-                        <li><a href="">Términos de Uso</a></li>
-                        <li><a href="">Show Disclaimer</a></li>
-                        <li><a href="">Política de Cookies</a></li>
-                        <li><a href="">No Vender Mi Información Personal</a></li>
+                        <li><a href="/">Biografía de creadores</a></li>
+                        <li><a href="/">Créditos de reparto y equipo</a></li>
+                        <li><a href="/">Contacto</a></li>
+                        <li><a href="/">Créditos web</a></li>
+                        <li><a href="/">Política de Privacidad</a></li>
+                        <li><a href="/">Términos de Uso</a></li>
+                        <li><a href="/">Show Disclaimer</a></li>
+                        <li><a href="/">Política de Cookies</a></li>
+                        <li><a href="/">No Vender Mi Información Personal</a></li>
                     </ul>
                 </div>
                 <div className='Footer-Content-Credits-SocialMedia'>
